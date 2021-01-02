@@ -49,8 +49,8 @@ func Actions() map[string]Action {
 
 // Listen is used to listen for the provided OS signals
 // If none are provided, then it will listen for any OS signal
-func Listen() {
-	defaultBleep.Listen()
+func Listen(signals ...os.Signal) {
+	defaultBleep.Listen(signals...)
 }
 
 // Add is used to add an action to be performed on an os signal
