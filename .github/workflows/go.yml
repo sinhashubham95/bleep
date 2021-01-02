@@ -35,7 +35,6 @@ jobs:
         uses: shogo82148/actions-goveralls@v1
         with:
           path-to-profile: profile.cov
-          github-token: ${{ secrets.COVERALLS_TOKEN }}
           flag-name: ${{ matrix.platform }}-go-${{ matrix.go-version }}
           parallel: true
 
@@ -47,7 +46,6 @@ jobs:
       - name: Sending coverage finished
         uses: shogo82148/actions-goveralls@v1
         with:
-          github-token: ${{ secrets.COVERALLS_TOKEN }}
           parallel-finished: true
 
   build:
