@@ -1,5 +1,9 @@
 # Bleep
 
+[![GoDoc](https://godoc.org/github.com/sinhashubham95/bleep?status.svg)](https://pkg.go.dev/github.com/sinhashubham95/bleep)
+[![Report](https://goreportcard.com/badge/github.com/sinhashubham95/bleep)](https://goreportcard.com/report/github.com/sinhashubham95/bleep)
+[![Coverage Status](https://coveralls.io/repos/github/sinhashubham95/bleep/badge.svg?branch=master)](https://coveralls.io/github/sinhashubham95/bleep?branch=master)
+
 `Bleep` is used to peform actions on OS signals. It is highly extensible and goroutine safe. It is possible to add any number of actions and all of them are guaranteed to be performed simultaneously on the OS signals that `Bleep` will be listening for.
 
 ## Installation
