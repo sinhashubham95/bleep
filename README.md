@@ -1,6 +1,7 @@
 # Bleep
 
 [![GoDoc](https://godoc.org/github.com/sinhashubham95/bleep?status.svg)](https://pkg.go.dev/github.com/sinhashubham95/bleep)
+[![Release](https://img.shields.io/github/v/release/sinhashubham95/bleep?sort=semver)](https://github.com/sinhashubham95/bleep/releases)
 [![Report](https://goreportcard.com/badge/github.com/sinhashubham95/bleep)](https://goreportcard.com/report/github.com/sinhashubham95/bleep)
 [![Coverage Status](https://coveralls.io/repos/github/sinhashubham95/bleep/badge.svg?branch=master)](https://coveralls.io/github/sinhashubham95/bleep?branch=master)
 
